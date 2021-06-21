@@ -1,7 +1,7 @@
 export default interface IState {
-    people: {
-        name: string
-        position: string
-        email: string
-    }[]
+  people: Array<{
+    name: string
+    position: string
+    email: string
+  }>
 }
